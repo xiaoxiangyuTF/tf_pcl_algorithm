@@ -34,4 +34,4 @@
 # ignore files
 #
 # ignore directory
-  build/
+build/
