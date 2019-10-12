@@ -19,6 +19,10 @@ target_link_libraries(tf_read_pcl ${PCL_LIBRARIES})
 add_executable(tf_tree_pcl ./tf_tree_pcl/tree_pcl.cpp)
 target_link_libraries(tf_tree_pcl ${PCL_LIBRARIES})
 
-################ tf_filter_pcl ################
-add_executable(tf_filter_pcl ./tf_filter_pcl/filter_pcl.cpp)
-target_link_libraries(tf_filter_pcl ${PCL_LIBRARIES})
+################ tf_normal_pcl ################
+add_executable(tf_normal_pcl ./tf_normal_pcl/normal_pcl.cpp)
+target_link_libraries(tf_normal_pcl ${PCL_LIBRARIES})
+
+################ tf_icp_pcl ################
+add_executable(tf_icp_pcl ./tf_icp_pcl/icp_pcl.cpp)
+target_link_libraries(tf_icp_pcl ${PCL_LIBRARIES})

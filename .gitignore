@@ -35,3 +35,5 @@
 #
 # ignore directory
 build/
+data/
+demo.cpp
